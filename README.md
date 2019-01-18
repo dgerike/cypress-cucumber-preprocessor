@@ -1,7 +1,7 @@
 [![styled with prettier](https://img.shields.io/badge/styled_with-prettier-ff69b4.svg)](https://github.com/prettier/prettier)
 [![CircleCI](https://circleci.com/gh/TheBrainFamily/cypress-cucumber-preprocessor.svg?style=shield)](https://circleci.com/gh/TheBrainFamily/cypress-cucumber-preprocessor)
 
-**This is a CUSTOMIZED VERSION OF TheBrainFamily/cypress-cucumber-preprocessor**
+**This is a modified version of TheBrainFamily/cypress-cucumber-preprocessor. It runs scenario steps separately, not in batch anymore. So, the reports show each step separately and not the whole scenario as one step.**
 
 # Run cucumber/gherkin-syntaxed specs with cypress.io
 
