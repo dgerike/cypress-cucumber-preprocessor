@@ -3,7 +3,7 @@ jobs:
   build:
     docker:
       - image: cypress/base:8
-    working_directory: ~/cypress-cucumber-preprocessor
+    working_directory: ~/cypress-cucumber-preprocessor-single-steps
     steps:
       - checkout
       - run:
@@ -13,7 +13,7 @@ jobs:
           name: link the package
           command: |
             npm link
-            npm link cypress-cucumber-preprocessor
+            npm link cypress-cucumber-preprocessor-single-steps
       - run:
           name: run tests
           command: npm test
