@@ -1,6 +1,6 @@
 {
   "name": "cypress-cucumber-preprocessor-single-steps",
-  "version": "1.9.8",
+  "version": "1.9.9",
   "description": "Run gherkin-syntaxed specs with cypress.io",
   "main": "lib/index.js",
   "scripts": {
